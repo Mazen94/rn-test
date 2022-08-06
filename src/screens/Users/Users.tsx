@@ -61,4 +61,4 @@ const Users = ({ fetchUsers, isLoading, isError, list }: any) => {
   );
 };
 
-export default Users;
+export default React.memo(Users);
