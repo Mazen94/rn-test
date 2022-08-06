@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Text should render a text 1`] = `
+<Text
+  style={
+    Object {
+      "color": "rgb(255, 24, 55)",
+      "fontFamily": "Roboto-regular",
+      "fontSize": 14,
+      "fontWeight": "400",
+      "lineHeight": 15.400000000000002,
+      "textAlign": "left",
+    }
+  }
+>
+  Hello
+</Text>
+`;
+
+exports[`[Component] Text should render a text with a different alignment 1`] = `
+<Text
+  style={
+    Object {
+      "color": "rgb(255, 24, 55)",
+      "fontFamily": "Roboto-regular",
+      "fontSize": 14,
+      "fontWeight": "400",
+      "lineHeight": 15.400000000000002,
+      "textAlign": "center",
+    }
+  }
+>
+  Hello
+</Text>
+`;
+
+exports[`[Component] Text should render a text with a different color 1`] = `
+<Text
+  style={
+    Object {
+      "color": "red",
+      "fontFamily": "Roboto-regular",
+      "fontSize": 14,
+      "fontWeight": "400",
+      "lineHeight": 15.400000000000002,
+      "textAlign": "left",
+    }
+  }
+>
+  Hello
+</Text>
+`;
+
+exports[`[Component] Text should render a text with a different size 1`] = `
+<Text
+  style={
+    Object {
+      "color": "rgb(255, 24, 55)",
+      "fontFamily": "Roboto-regular",
+      "fontSize": 16,
+      "fontWeight": "400",
+      "lineHeight": 17.6,
+      "textAlign": "left",
+    }
+  }
+>
+  Hello
+</Text>
+`;
+
+exports[`[Component] Text should render a text with a different weight 1`] = `
+<Text
+  style={
+    Object {
+      "color": "rgb(255, 24, 55)",
+      "fontFamily": "Roboto-Bold",
+      "fontSize": 14,
+      "fontWeight": "400",
+      "lineHeight": 15.400000000000002,
+      "textAlign": "left",
+    }
+  }
+>
+  Hello
+</Text>
+`;
+
+exports[`[Component] Text should render a text with default line height 1`] = `
+<Text
+  style={
+    Object {
+      "color": "rgb(255, 24, 55)",
+      "fontFamily": "Roboto-regular",
+      "fontSize": 14,
+      "fontWeight": "400",
+      "textAlign": "left",
+    }
+  }
+>
+  Hello
+</Text>
+`;
+
+exports[`[Component] Text should render a text with existing style prop (object) 1`] = `
+<Text
+  style={
+    Object {
+      "color": "red",
+      "fontFamily": "Roboto-regular",
+      "fontSize": 14,
+      "fontWeight": "400",
+      "lineHeight": 15.400000000000002,
+      "marginTop": 10,
+      "textAlign": "left",
+    }
+  }
+>
+  Hello
+</Text>
+`;
+
+exports[`[Component] Text should render a text with native Text children 1`] = `
+<Text
+  style={
+    Object {
+      "color": "rgb(255, 24, 55)",
+      "fontFamily": "Roboto-regular",
+      "fontSize": 14,
+      "fontWeight": "400",
+      "lineHeight": 15.400000000000002,
+      "textAlign": "left",
+    }
+  }
+>
+  <Text>
+    Hello
+  </Text>
+   
+  <Text>
+    world!
+  </Text>
+</Text>
+`;
+
+exports[`[Component] Text should render an underline text 1`] = `
+<Text
+  style={
+    Object {
+      "color": "rgb(255, 24, 55)",
+      "fontFamily": "Roboto-regular",
+      "fontSize": 14,
+      "fontWeight": "400",
+      "lineHeight": 15.400000000000002,
+      "textAlign": "left",
+      "textDecorationLine": "underline",
+    }
+  }
+>
+  Hello
+</Text>
+`;
